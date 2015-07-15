@@ -1382,3 +1382,292 @@ notifying browser that file changed:  /hello_cljs/components.js
 [0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
 [32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.177 seconds.[0m
 notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /Users/ddinh/workspace/learn/clojure/dd/hello-cljs/src/hello_cljs/components.cljs, line 80, column 55
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.235 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.172 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.168 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.181 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.271 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.17 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.266 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.121 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components.js
+notifying browser that file changed:  /hello_cljs/core.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.352 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/hello_cljs/components.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3059.invoke (compiler.cljc:1146)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1109)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1181)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1476)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15558.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15604.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15555.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15351.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15360.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15354.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15372.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15458$state_machine__9143__auto____15459$fn__15464.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/hello_cljs/components.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3059.invoke (compiler.cljc:1146)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1109)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1181)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1476)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15558.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15604.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15555.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15351.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15360.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15354.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15372.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15458$state_machine__9143__auto____15459$fn__15464.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/hello_cljs/components.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3059.invoke (compiler.cljc:1146)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1109)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1181)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1476)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15558.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15604.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15555.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15351.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15360.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15354.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15372.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15458$state_machine__9143__auto____15459$fn__15464.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.252 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.237 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.299 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.27 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.207 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.222 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.206 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.238 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.193 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.192 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.19 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.2 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.194 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.187 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.269 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+ERROR: Invalid number format [1em] on file /Users/ddinh/workspace/learn/clojure/dd/hello-cljs/src/hello_cljs/components.cljs, line 108, column 46
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.193 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.248 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.181 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.183 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.237 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+WARNING: Use of undeclared Var hello-cljs.components/handle-change at line 113 src/hello_cljs/components.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.213 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.206 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/hello_cljs/components.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3059.invoke (compiler.cljc:1146)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1109)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1181)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1476)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15558.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15604.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15555.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15351.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15360.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15354.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15372.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15458$state_machine__9143__auto____15459$fn__15464.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+WARNING: Use of undeclared Var hello-cljs.components/-target at line 86 src/hello_cljs/components.cljs
+WARNING: Use of undeclared Var hello-cljs.components/-value at line 86 src/hello_cljs/components.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.218 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.188 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.239 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.254 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.242 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.284 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.197 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.207 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file /Users/ddinh/workspace/learn/clojure/dd/hello-cljs/src/hello_cljs/core.cljs, line 36, column 88
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.202 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/core.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.227 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.101 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/core.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.158 seconds.[0m
+notifying browser that file changed:  /hello_cljs/core.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+WARNING: Use of undeclared Var hello-cljs.components/student-view at line 72 src/hello_cljs/components.cljs
+WARNING: Use of undeclared Var hello-cljs.components/professor-view at line 75 src/hello_cljs/components.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.25 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components.js
