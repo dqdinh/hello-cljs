@@ -1,8 +1,10 @@
 (ns hello-cljs.core
     (:require
       [om.core :as om :include-macros true]
-      [hello-cljs.components
-        :refer [like-seymore my-widget animals contacts-view registry-view]]
+      [hello-cljs.components.misc :refer [like-seymore my-widget animals]]
+      [hello-cljs.components.contacts :refer [contacts-view]]
+      [hello-cljs.components.registry :refer [registry-view]]
+      [hello-cljs.components.classes :refer [classes-view]]
       [sablono.core :refer-macros [html]])
     (:require-macros
       [hello-cljs.utils :refer [logger]]))
@@ -44,6 +46,7 @@
         (render [_]
           (html
             [:div.aside-left-menu
+              (om/build classes-view data)
               (om/build registry-view data)
               (om/build contacts-view data)
               (om/build animals data)

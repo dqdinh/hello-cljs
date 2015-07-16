@@ -1671,3 +1671,741 @@ WARNING: Use of undeclared Var hello-cljs.components/professor-view at line 75 s
 [32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.25 seconds.[0m
 notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
 notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.354 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.107 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/core.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.243 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.153 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components.js
+notifying browser that file changed:  /hello_cljs/core.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.281 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/core.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.474 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+sending changed CSS file: resources/public/css/style.css
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.414 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.18 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/core.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+WARNING: handle-change at line 17 is being replaced at line 152 src/hello_cljs/components.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.405 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.293 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.355 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/hello_cljs/components/misc.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core$map$fn__4553.invoke (core.clj:2616)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:30)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/hello_cljs/components/contacts.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core$map$fn__4553.invoke (core.clj:2616)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:30)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/hello_cljs/components/classes.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core$map$fn__4553.invoke (core.clj:2616)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:30)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/hello_cljs/components/classes.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core$map$fn__4553.invoke (core.clj:2616)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:30)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/hello_cljs/components/classes.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core$map$fn__4553.invoke (core.clj:2616)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:30)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/hello_cljs/components/classes.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core$map$fn__4553.invoke (core.clj:2616)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:30)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/hello_cljs/components/classes.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core$map$fn__4553.invoke (core.clj:2616)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:30)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/hello_cljs/components/classes.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core$map$fn__4553.invoke (core.clj:2616)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:30)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/hello_cljs/components/classes.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core$map$fn__4553.invoke (core.clj:2616)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:30)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/hello_cljs/components/classes.cljs
+ at cljs.analyzer$parse_ns$fn__2150.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2085)
+    cljs.compiler$compile_root$fn__3082.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core$map$fn__4553.invoke (core.clj:2616)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:30)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$build_index.invoke (js_deps.clj:128)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:168)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1173)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+WARNING: Use of undeclared Var hello-cljs.components.registry/display-name at line 16 src/hello_cljs/components/registry.cljs
+WARNING: Use of undeclared Var hello-cljs.components.registry/display-name at line 24 src/hello_cljs/components/registry.cljs
+WARNING: Required namespace not provided for hello-cljs.components
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.454 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+WARNING: Required namespace not provided for hello-cljs.components
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.089 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components/classes.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.126 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.149 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components/classes.js
+notifying browser that file changed:  /hello_cljs/components/contacts.js
+notifying browser that file changed:  /hello_cljs/components/misc.js
+notifying browser that file changed:  /hello_cljs/components/registry.js
+notifying browser that file changed:  /hello_cljs/core.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: middle-name in this context, compiling:(hello_cljs/utils.clj:7:23)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3791)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler.eval (Compiler.java:6786)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: middle-name in this context, compiling:(hello_cljs/utils.clj:7:23)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3791)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler.eval (Compiler.java:6786)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: middle-name in this context, compiling:(hello_cljs/utils.clj:7:23)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3791)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler.eval (Compiler.java:6786)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: middle-name in this context, compiling:(hello_cljs/utils.clj:7:23)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3791)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler.eval (Compiler.java:6786)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: middle-name in this context, compiling:(hello_cljs/utils.clj:7:23)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3791)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler.eval (Compiler.java:6786)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: middle-name in this context, compiling:(hello_cljs/utils.clj:7:23)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3791)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler.eval (Compiler.java:6786)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/hello_cljs/components/contacts.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3059.invoke (compiler.cljc:1146)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1109)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1181)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1476)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15558.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15604.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15555.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15351.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15360.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15354.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15372.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15458$state_machine__9143__auto____15459$fn__15464.invoke (auto.clj:186)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[31mCompiling "resources/public/js/compiled/hello_cljs.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/hello_cljs/components/contacts.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3059.invoke (compiler.cljc:1146)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1109)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1181)
+    cljs.closure$compile_dir.invoke (closure.clj:385)
+    cljs.closure$eval3467$fn__3468.invoke (closure.clj:425)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    cljs.closure$eval3480$fn__3481.invoke (closure.clj:439)
+    cljs.closure$eval3420$fn__3421$G__3411__3428.invoke (closure.clj:331)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1476)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15558.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15604.invoke (auto_builder.clj:214)
+    figwheel_sidecar.auto_builder$warning$fn__15555.invoke (auto_builder.clj:74)
+    clojurescript_build.auto$time_build$fn__15351.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__15357.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__15360.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__15354.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__15372.invoke (auto.clj:103)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15458$state_machine__9143__auto____15459$fn__15464.invoke (auto.clj:186)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.155 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/utils.js
+notifying browser that file changed:  /hello_cljs/components/classes.js
+notifying browser that file changed:  /hello_cljs/components/misc.js
+notifying browser that file changed:  /hello_cljs/core.js
+notifying browser that file changed:  /hello_cljs/components/contacts.js
+notifying browser that file changed:  /hello_cljs/components/registry.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.205 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components/classes.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.117 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components/classes.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.113 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components/classes.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+WARNING: Extending an existing JavaScript type - use a different symbol name instead of js/String e.g string at line 14 src/hello_cljs/components/classes.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.142 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components/classes.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+WARNING: Extending an existing JavaScript type - use a different symbol name instead of js/String e.g string at line 14 src/hello_cljs/components/classes.cljs
+WARNING: Bad method signature in protocol implementation, om/IInitState does not declare method called render-state at line 32 src/hello_cljs/components/classes.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.232 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components/classes.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+WARNING: Extending an existing JavaScript type - use a different symbol name instead of js/String e.g string at line 14 src/hello_cljs/components/classes.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.149 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components/classes.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+WARNING: Use of undeclared Var hello-cljs.components.registry/am at line 10 src/hello_cljs/components/registry.cljs
+WARNING: Use of undeclared Var hello-cljs.components.registry/go at line 10 src/hello_cljs/components/registry.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.174 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components/registry.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+WARNING: Extending an existing JavaScript type - use a different symbol name instead of js/String e.g string at line 14 src/hello_cljs/components/classes.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.151 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components/classes.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.113 seconds.[0m
+notifying browser that file changed:  /hello_cljs/core.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.191 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components/misc.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.118 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/core.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.218 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components/misc.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.137 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components/misc.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.139 seconds.[0m
+notifying browser that file changed:  /hello_cljs/components/misc.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.175 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components/misc.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.131 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components/misc.js
+[0mCompiling "resources/public/js/compiled/hello_cljs.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/js/compiled/hello_cljs.js" in 0.174 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  /hello_cljs/components/contacts.js
