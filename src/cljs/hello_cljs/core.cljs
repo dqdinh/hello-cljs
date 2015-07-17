@@ -5,9 +5,7 @@
       [hello-cljs.components.contacts :refer [contacts-view]]
       [hello-cljs.components.registry :refer [registry-view]]
       [hello-cljs.components.classes :refer [classes-view]]
-      [sablono.core :refer-macros [html]])
-    (:require-macros
-      [hello-cljs.utils :refer [logger]]))
+      [sablono.core :refer-macros [html]]))
 
 (enable-console-print!)
 

@@ -11,3 +11,5 @@ pom.xml.asc
 /resources/public/js
 /out
 /.repl
+.lein-repl-history
+figwheel_server.log

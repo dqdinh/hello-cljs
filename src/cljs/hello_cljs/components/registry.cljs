@@ -7,7 +7,7 @@
     [hello-cljs.utils :refer [display-name]]
     [sablono.core :refer-macros [html]]))
   (:require-macros
-    [cljs.core.async.macros :as am :refer [go]])
+    [cljs.core.async.macros :refer [go]])
 
 (defn student-view [student owner]
   (reify
