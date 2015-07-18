@@ -1,6 +1,8 @@
 (ns hello-cljs.core
     (:require
       [om.core :as om :include-macros true]
+      [hello-cljs.async-walkthrough]
+      [hello-cljs.async-secret-combination]
       [hello-cljs.components.misc :refer [like-seymore my-widget animals]]
       [hello-cljs.components.contacts :refer [contacts-view]]
       [hello-cljs.components.registry :refer [registry-view]]

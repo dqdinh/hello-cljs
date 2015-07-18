@@ -5,9 +5,9 @@
     [om.core :as om :include-macros true]
     [cljs.core.async :as async :refer [put! chan <!]]
     [hello-cljs.utils :refer [display-name]]
-    [sablono.core :refer-macros [html]]))
+    [sablono.core :refer-macros [html]])
   (:require-macros
-    [cljs.core.async.macros :refer [go]])
+    [cljs.core.async.macros :as am :refer [go]]))
 
 (defn student-view [student owner]
   (reify

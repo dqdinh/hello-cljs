@@ -13,16 +13,15 @@
                  [org.omcljs/om "0.8.8"]]
 
   :plugins [[lein-cljsbuild "1.0.5"]
-            [lein-figwheel "0.3.5"]]
+            [lein-figwheel "0.3.7"]]
 
-  :source-paths ["src/cljs"]
-  :resource-paths ["resources"]
+  :source-paths ["src"]
 
   :clean-targets ^{:protect false} ["resources/public/js/compiled" "target"]
 
   :cljsbuild {
     :builds [{:id "dev"
-              :source-paths ["src/cljs"]
+              :source-paths ["src"]
 
               :figwheel { :on-jsload "hello-cljs.core/on-js-reload" }
 
@@ -30,10 +29,9 @@
                          :asset-path "js/compiled/out"
                          :output-to "resources/public/js/compiled/hello_cljs.js"
                          :output-dir "resources/public/js/compiled/out"
-                         :optimizations :none
                          :source-map-timestamp true }}
              {:id "min"
-              :source-paths ["src/cljs"]
+              :source-paths ["src"]
               :compiler {:output-to "resources/public/js/compiled/hello_cljs.js"
                          :main hello-cljs.core
                          :optimizations :advanced
